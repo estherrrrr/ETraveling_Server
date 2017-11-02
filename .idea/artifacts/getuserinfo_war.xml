@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="getuserinfo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="getuserinfo.war">
+      <element id="artifact" artifact-name="getuserinfo:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="json" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="getuserinfo/jpa/JPA" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
